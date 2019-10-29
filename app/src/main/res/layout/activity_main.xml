@@ -86,4 +86,42 @@
         android:singleLine="true"
         android:imeOptions="actionSearch"/>
 
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기타"/>
+
+    </RadioGroup>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용약관에 동의합니다."
+        android:checked="true"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="푸시알람 수신"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확인"/>
+
 </LinearLayout>
