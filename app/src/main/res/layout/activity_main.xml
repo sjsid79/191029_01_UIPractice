@@ -10,10 +10,35 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="첫번째 텍스트뷰"
+        android:textSize="18sp"
+        android:textColor="#0000FF" />
+
+    <!-- 두번째 텍스트뷰, 빨간색, 텍스트 크기 16sp -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="두번째 텍스트뷰"
+        android:textSize="16sp"
+        android:textColor="#FF0000" />
+
+    <!-- 세번째, 네번째  텍스트뷰 이둘은 가로 배치 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="세번째 텍스트뷰"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="네번째 텍스트뷰"/>
+
+
+    </LinearLayout>
 
 </LinearLayout>
